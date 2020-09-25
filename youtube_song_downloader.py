@@ -26,5 +26,5 @@ class Download(object):
         ydl.download([self.url])
 
 if __name__ == '__main__':
-    url = input("Enter url to song here\n  >>  ")#input user's url
+    url = input("Enter url to song here\n  >>  ")# user's url
     Download(url)
